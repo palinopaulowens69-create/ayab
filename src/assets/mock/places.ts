@@ -1,0 +1,3 @@
+import {Place} from '../../app/core/models/models';
+export const PLACES:Place[]=[
+{id:'p1',name:'Cagayan State University',lat:17.6158,lng:121.7272},{id:'p2',name:'Tuguegarao City Hall',lat:17.6131,lng:121.7272},{id:'p3',name:'SM City Tuguegarao',lat:17.6154,lng:121.7352},{id:'p4',name:'Tuguegarao Cathedral',lat:17.6098,lng:121.7265},{id:'p5',name:'Carig Sur',lat:17.622,lng:121.719},{id:'p6',name:'Buntun Bridge',lat:17.602,lng:121.704}];

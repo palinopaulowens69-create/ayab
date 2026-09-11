@@ -1,0 +1,2 @@
+import {Injectable} from '@angular/core';
+@Injectable({providedIn:'root'}) export class FareService{baseFare=20;perKm=8;calculate(distance:number){return Math.max(this.baseFare,this.baseFare+Math.max(0,distance-1)*this.perKm)}}

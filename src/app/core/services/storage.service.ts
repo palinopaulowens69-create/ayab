@@ -1,0 +1,2 @@
+import {Injectable} from '@angular/core';
+@Injectable({providedIn:'root'}) export class StorageService{get<T>(k:string,f:T):T{try{const v=localStorage.getItem('ayab_'+k);return v?JSON.parse(v):f}catch{return f}} set<T>(k:string,v:T){localStorage.setItem('ayab_'+k,JSON.stringify(v))} remove(k:string){localStorage.removeItem('ayab_'+k)} clear(){Object.keys(localStorage).filter(k=>k.startsWith('ayab_')).forEach(k=>localStorage.removeItem(k))}}

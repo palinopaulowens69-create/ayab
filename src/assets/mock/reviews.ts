@@ -1,0 +1,2 @@
+import {Review} from '../../app/core/models/models';
+export const REVIEWS:Review[]=[{id:'r1',driverId:'d1',driverName:'Pedro Santos',passengerName:'Maria Garcia',rating:5,review:'Safe and friendly driver.',date:'2026-08-30'},{id:'r2',driverId:'d1',driverName:'Pedro Santos',passengerName:'Carlo Reyes',rating:4,review:'Good ride and on time.',date:'2026-08-28'},{id:'r3',driverId:'d2',driverName:'Ramon Bautista',passengerName:'Juan Dela Cruz',rating:5,review:'Smooth trip.',date:'2026-08-27'}];

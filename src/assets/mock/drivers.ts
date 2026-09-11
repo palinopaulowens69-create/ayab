@@ -1,0 +1,5 @@
+import {Driver} from '../../app/core/models/models';
+export const DRIVERS:Driver[]=[
+{...{id:'d1',name:'Pedro Santos',email:'driver@ayab.com',password:'123456',role:'driver',phone:'09181234567',status:'active'},rating:4.8,completedTrips:125,plate:'ABC 1234',tricycle:'AYAB Blue Tricycle',qrId:'AYAB-DRIVER-001',online:true,verified:true,lat:17.6132,lng:121.7269,eta:4},
+{...{id:'d2',name:'Ramon Bautista',email:'ramon@ayab.com',password:'123456',role:'driver',phone:'09221234567',status:'active'},rating:4.6,completedTrips:98,plate:'XYZ 5678',tricycle:'AYAB Red Tricycle',qrId:'AYAB-DRIVER-002',online:true,verified:true,lat:17.616,lng:121.728,eta:6},
+{...{id:'d3',name:'Lito Mendoza',email:'lito@ayab.com',password:'123456',role:'driver',phone:'09331234567',status:'active'},rating:4.7,completedTrips:76,plate:'LMN 2468',tricycle:'AYAB Green Tricycle',qrId:'AYAB-DRIVER-003',online:false,verified:false,lat:17.609,lng:121.722,eta:9}];

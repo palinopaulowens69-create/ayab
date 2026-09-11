@@ -1,0 +1,2 @@
+import {Incident} from '../../app/core/models/models';
+export const INCIDENTS:Incident[]=[{id:'i1',title:'Late pickup',passenger:'Maria Garcia',driver:'Ramon Bautista',description:'Driver arrived later than expected.',status:'Resolved',notes:'Demo incident.',date:'2026-08-28'},{id:'i2',title:'QR verification issue',passenger:'Juan Dela Cruz',driver:'Pedro Santos',description:'QR did not scan on first attempt.',status:'Pending',notes:'',date:'2026-09-01'}];
